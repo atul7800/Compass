@@ -1,6 +1,6 @@
 # Compass
 
-> A RAG-powered support engineering copilot that analyzes customer conversations, retrieves relevant context from documentation and historical tickets, and helps engineers resolve issues faster.
+> A RAG powered support engineering copilot that analyzes customer conversations, retrieves relevant context from documentation and historical tickets, and helps engineers resolve issues faster.
 
 ## Overview
 
