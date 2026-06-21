@@ -10,14 +10,14 @@ Compass uses Retrieval-Augmented Generation (RAG) to understand customer queries
 
 ## Key Features
 
-* Analyze customer queries and support threads
-* Generate intelligent search queries from customer context
-* Search product documentation
-* Search historical support tickets
-* Retrieve and rank relevant knowledge
-* Summarize findings from multiple sources
-* Generate suggested responses
-* RAG-powered contextual retrieval and reasoning
+- Analyze customer queries and support threads
+- Generate intelligent search queries from customer context
+- Search product documentation
+- Search historical support tickets
+- Retrieve and rank relevant knowledge
+- Summarize findings from multiple sources
+- Generate suggested responses
+- RAG-powered contextual retrieval and reasoning
 
 ## How It Works
 
@@ -58,70 +58,70 @@ Response Generation
 
 ### Frontend
 
-* React
-* Vite
+- React
+- Vite
 
 ### Backend
 
-* Node.js
-* Express
+- Node.js
+- Express
 
 ### AI / RAG
 
-* Ollama
-* Qwen 3
-* Retrieval-Augmented Generation (RAG)
+- Ollama
+- Qwen 3
+- Retrieval-Augmented Generation (RAG)
 
 ### Storage
 
-* SQLite
+- SQLite
 
 ## Data Sources
 
 ### Documentation
 
-* Product Documentation
-* Knowledge Base Articles
+- Product Documentation
+- Knowledge Base Articles
 
 ### Historical Knowledge
 
-* Historical Support Tickets
-* Previously Resolved Issues
+- Historical Support Tickets
+- Previously Resolved Issues
 
 ## Project Goals
 
-* Reduce investigation time
-* Improve discoverability of existing solutions
-* Minimize duplicate troubleshooting efforts
-* Improve response quality and consistency
-* Accelerate issue resolution for support teams
+- Reduce investigation time
+- Improve discoverability of existing solutions
+- Minimize duplicate troubleshooting efforts
+- Improve response quality and consistency
+- Accelerate issue resolution for support teams
 
 ## Roadmap
 
 ### Phase 1
 
-* [ ] React frontend
-* [ ] Express backend
-* [ ] Documentation search integration
-* [ ] Customer thread analysis
+- [ ] React frontend
+- [ ] Express backend
+- [ ] Documentation search integration
+- [ ] Customer thread analysis
 
 ### Phase 2
 
-* [ ] Historical ticket ingestion
-* [ ] SQLite integration
-* [ ] Cross-source retrieval
+- [ ] Historical ticket ingestion
+- [ ] SQLite integration
+- [ ] Cross-source retrieval
 
 ### Phase 3
 
-* [ ] Ollama integration
-* [ ] Context-aware summarization
-* [ ] Suggested customer responses
+- [ ] Ollama integration
+- [ ] Context aware summarization
+- [ ] Suggested customer responses
 
 ### Phase 4
 
-* [ ] Historical conversation memory
-* [ ] Saved investigations
-* [ ] Retrieval quality improvements
+- [ ] Historical conversation memory
+- [ ] Saved investigations
+- [ ] Retrieval quality improvements
 
 ## Status
 
