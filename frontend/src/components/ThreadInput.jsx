@@ -53,7 +53,7 @@ export default function ThreadInput({
           {text.length.toLocaleString()} characters
         </span>
 
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-3">
           {text && (
             <button
               onClick={handleClear}
@@ -61,7 +61,7 @@ export default function ThreadInput({
               className="text-p-2 text-gray-400 hover:text-gray-600 dark:hover:text-neutral-300 rounded-lg transition-colors"
               title="Clear text"
             >
-              <Trash2 size={16} />
+              <Trash2 size={20} />
             </button>
           )}
           <button

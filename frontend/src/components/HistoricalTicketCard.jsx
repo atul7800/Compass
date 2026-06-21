@@ -6,7 +6,7 @@ export default function HistoricalTicketCard({tickets}) {
   return (
     <Card>
       <CardTitle>Historical Ticket Results</CardTitle>
-      <div className="space-y-4 divide-y divide-gray-100 dark:divide-neutral-900">
+      <div className="space-y-4">
         {tickets.map((ticket) => (
           <div key={ticket.id} className="pt-4 first:pt-0 space-y-2">
             <div className="flex items-center justify-between">
