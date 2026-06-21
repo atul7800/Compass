@@ -52,24 +52,8 @@ export default function App() {
           setText={setThreadText}
           onAnalyze={handleAnalyze}
           isLoading={status === "loading"}
+          status={status}
         />
-
-        <hr className="border-t-2 border-gray-200 dark:border-neutral-900" />
-
-        {status === "empty" && (
-          <div className="flex flex-col items-center justify-center text-center py-20 border border-dashed border-gray-200 dark:border-neutral-800 rounded-xl bg-white dark:bg-transparent">
-            <div className="p-3 bg-gray-100 dark:bg-neutral-900 rounded-full text-gray-400 mb-3">
-              <Terminal size={20} />
-            </div>
-            <p className="text-sm font-medium text-gray-500 dark:text-neutral-400">
-              Paste a customer thread and click{" "}
-              <span className="font-semibold text-gray-800 dark:text-neutral-200">
-                Analyze Thread
-              </span>{" "}
-              to coordinate telemetry data.
-            </p>
-          </div>
-        )}
 
         {status === "loading" && <LoadingState />}
 
